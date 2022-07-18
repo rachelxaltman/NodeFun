@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "61ae6d6f88a17928409edb90"
+  },
+  "firstName": "Rachel",
+  "lastName": "Altman",
+  "email": "okay@okay.com",
+  "password": "$2b$10$JembDpucPYjhTNPLrgIaDu.4uoI/RqHyT4KYIPuWHMubxVsXWx72m",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61ae6dfa88a17928409edbb5"
+  },
+  "firstName": "Cody",
+  "lastName": "Altman",
+  "email": "anime@anime.com",
+  "password": "$2b$10$nOCp069j5E2.mGFF.2COo.DAIupU5763YQv.eEd2rg.Eh0JOLIMme",
+  "__v": 0
+}]

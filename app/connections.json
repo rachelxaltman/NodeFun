@@ -1,0 +1,139 @@
+[{
+  "_id": {
+    "$oid": "618ad276129170d414e1c5d6"
+  },
+  "connectionName": "AnimeCon",
+  "connectionTopic": "Anime Conventions",
+  "details": "I am new to Anime Conventions and I wanted to attend one with some new friends of mine as well as meet new people :)",
+  "date": "2021-10-24",
+  "startTime": "16:56",
+  "endTime": "18:56",
+  "hostName": "Douglas",
+  "location": "Crowne Plaza; Austin, TX",
+  "imageUrl": "https://i.ibb.co/KqFHxzn/AnimeCon.jpg",
+  "author": {
+    "$oid": "61ae6d6f88a17928409edb90"
+  },
+  "createdAt": {
+    "$date": "2021-11-09T19:56:38.957Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-09T19:56:38.957Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618ad2a2129170d414e1c5db"
+  },
+  "connectionName": "Miami Con",
+  "connectionTopic": "Anime Conventions",
+  "details": "Join myself and several friends at our first Anime Convention!",
+  "date": "2021-10-10",
+  "startTime": "13:57",
+  "endTime": "16:57",
+  "hostName": "Rachel",
+  "location": "Harp Plaza; Miama, FL",
+  "imageUrl": "https://i.ibb.co/GQ8tHvY/MiamiCon.jpg",
+  "author": {
+    "$oid": "61ae6d6f88a17928409edb90"
+  },
+  "createdAt": {
+    "$date": "2021-11-09T19:57:22.233Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-09T19:57:22.233Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618ad305129170d414e1c5ee"
+  },
+  "connectionName": "My Hero Academia Episode 2",
+  "connectionTopic": "Anime Watch Party",
+  "details": "Come Watch My Hero Academia Episode 2 with several of my friends on Zoom!",
+  "date": "2021-10-10",
+  "startTime": "13:58",
+  "endTime": "17:58",
+  "hostName": "Kohner",
+  "location": "zoom.com",
+  "imageUrl": "https://i.ibb.co/hMhn9TT/myHeroe2.png",
+  "author": {
+    "$oid": "61ae6dfa88a17928409edbb5"
+  },
+  "createdAt": {
+    "$date": "2021-11-09T19:59:01.559Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-09T19:59:01.559Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618ad32f129170d414e1c5f1"
+  },
+  "connectionName": "Jujutsu Kaisen Episode 10",
+  "connectionTopic": "Anime Watch Party",
+  "details": "Come Watch the final Jujutsu Kaisen Episode with several of my friends on Zoom!",
+  "date": "2021-10-10",
+  "startTime": "17:59",
+  "endTime": "19:59",
+  "hostName": "Brice",
+  "location": "zoom.com",
+  "imageUrl": "https://i.ibb.co/xH4pd1P/jjkE10.jpg",
+  "author": {
+    "$oid": "61ae6dfa88a17928409edbb5"
+  },
+  "createdAt": {
+    "$date": "2021-11-09T19:59:43.312Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-09T19:59:43.312Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618ad357129170d414e1c5f4"
+  },
+  "connectionName": "Sailor Moon Movie",
+  "connectionTopic": "Anime Watch Party",
+  "details": "Come watch the sailor moon movie!",
+  "date": "2021-10-10",
+  "startTime": "20:00",
+  "endTime": "23:00",
+  "hostName": "Ryan",
+  "location": "zoom.com",
+  "imageUrl": "https://i.ibb.co/b3RdHfJ/sailor-Moon.jpg",
+  "author": {
+    "$oid": "61ae6dfa88a17928409edbb5"
+  },
+  "createdAt": {
+    "$date": "2021-11-09T20:00:23.558Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-09T20:00:23.558Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618ad388129170d414e1c5fb"
+  },
+  "connectionName": "New Convention in Town",
+  "connectionTopic": "Anime Conventions",
+  "details": "New Anime Convention in Town!!!",
+  "date": "2021-10-10",
+  "startTime": "16:00",
+  "endTime": "20:01",
+  "hostName": "Cody",
+  "location": "Austin City; Austin, TX",
+  "imageUrl": "https://i.ibb.co/WV2qHxb/anime-Expo.jpg",
+  "author": {
+    "$oid": "61ae6d6f88a17928409edb90"
+  },
+  "createdAt": {
+    "$date": "2021-11-09T20:01:12.911Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-09T20:01:12.911Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,78 @@
+
+<%- include('../partials/header.ejs')%>
+<div id = "newTop">
+    <form method = "POST"  class="form" action = "/connections/<%= connection.id%>?_method=PUT">
+    <tr>
+    </br>
+</br>
+
+         <td> <label for="connectionTopic">Topic:</label></td>
+         <td><input type="text" id="connectionTopic" name="connectionTopic" value = "<%= connection.connectionTopic%>" class = "fixed-width" required="Connection Topic is required"></td>
+    </br>
+</br>
+    </tr>
+    <tr>
+        <td><label for="connectionName">Title: </label></td>
+        <td><input type="text" id="connectionName" name="connectionName" value = "<%= connection.connectionName%>" class = "fixed-width" required="Connection Name is required"></td>
+    </br>
+</br>
+    </tr>
+    <tr>
+        <td><label for="hostName">Host: </label></td>
+        <td><input type="text" id="hostName" name="hostName" value = "<%= connection.hostName%>" class = "fixed-width" required="Host Name is required"></td>
+    </br>
+</br>
+    </tr>
+    <tr>
+        <td><label for="details">Details: </label></td>
+        <td><input type="text" id="details" name="details" value = "<%= connection.details%>" textarea rows="5" class = "fixed-width"  minlength="5" maxlength="1000" required="Details are required"></td>
+    </br>
+</br>
+    </tr>
+    <tr>
+        <td><label for="date">Date: </label></td>
+        <td><input type="date" id="date" name="date" value="2021-10-10" value = "<%= connection.date%>" min="2021-09-16" max="2023-12-31" class = "fixed-width" required="Date is required"></td>
+    </br>
+</br>
+    </tr>
+    <tr>
+        <td><label for="startTime">Start Time : </label></td>
+        <td><input type="time" id="startTime" class = "fixed-width" name="startTime" min="09:00" max="23:30"  value = "<%= connection.startTime%>" required="Start Time is required"></td>
+    </br>
+</br>
+    </tr>
+    <tr>
+
+
+        <td><label for="endTime">End Time : </label></td>
+        <td><input type="time" id="endTime" class = "fixed-width"  name="endTime" min="09:00" max="23:30" value = "<%= connection.endTime%>" required="End Time is required"></td>
+    </br>
+</br>
+    </tr>
+    <tr>
+        <td><label for="location">Where: </label></td>
+        <td><input type="text" id="location" textarea rows="5" name="location" value = "<%= connection.location%>" class = "fixed-width" required="Location is required"></td>
+    </tr>
+</br>
+</br>
+    <tr>
+        <td><label for="imageUrl">Image: </label></td>
+        <td><input type="text" id="imageUrl" textarea rows="10" name="imageUrl" value = "<%= connection.imageUrl%>" class = "fixed-width"  minlength="10" maxlength="100000" required="Image URL is required"></td>
+    </tr>
+    </br>
+</br>
+<tr>
+
+</tr>
+             <td colspan="2" class="align-right"><button> Submit</button></td> 
+            </br>
+        </br>
+    </tr> 
+      </form>
+    
+    </div>
+    
+      <%- include('../partials/footer.ejs')%>
+    
+    
+

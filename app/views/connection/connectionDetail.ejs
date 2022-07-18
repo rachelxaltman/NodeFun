@@ -1,0 +1,68 @@
+<%- include('../partials/header.ejs')%>
+
+<br><br>
+<div class = "formatDetails">
+<div class ="textName"><%=connection.connectionName %></div>
+<br>
+
+
+
+
+<td><img id="imageS"src= "<%= connection.imageUrl%> "></td>
+<!-- <div class ="image"><%=connection.image %></div> -->
+<br></br>
+
+    
+<div class = "hostName">Hosted By <%=connection.hostName %></div>
+<br></br>
+
+<div class = "date"><%=connection.date %></div>
+</br>
+
+
+
+<div class ="timeE">
+<div class = "timeSpan"><%=connection.startTime %> - <%=connection.endTime %> </div>
+</div>
+<br></br>
+<div class = "location"><%=connection.location %></div>
+<br></br></br>
+</br>
+
+<% if (user==connection.author){%>
+    <form class="buttonType">
+        <button type= "submit" formmethod = "GET" formaction = "/connections/<%= connection.id%>/edit">Update</button>
+        <button type= "submit" formmethod = "POST" formaction = "/connections/<%= connection.id%>?_method=DELETE">Delete</button>
+        </form>
+    
+       
+        <br>
+    
+<%}else if (user && user!= connection.author){%>
+    <form class="RsvpButtonType">
+       
+    <div class ="rsvpHere" ><%=rsvps%> People Attending</div>
+     <br>
+        
+        <div class ="rsvpHere"> RSVP Below!</div>
+    
+        <button type= "submit" formmethod = "POST" formaction = "/connections/<%= connection.id%>/rsvp" name="rsvp" value="YES"> Yes</button>
+        
+         <!-- store into collection  rsvp-->
+        <button type= "submit" formmethod = "POST" formaction = "/connections/<%= connection.id%>/rsvp" name="rsvp" value="NO"> No</button>
+         <button type= "submit" formmethod = "POST" formaction = "/connections/<%= connection.id%>/rsvp" name="rsvp" value="MAYBE"> Maybe</button>
+        </form>
+        <%}%>
+
+
+
+<br></br></br></br></br>
+<div class = "detailText"> Details:</div>
+<br></br>
+<div class = "details"><%=connection.details %></div>
+<br></br>
+
+</div>
+</div>
+
+<%- include('../partials/footer.ejs')%>
