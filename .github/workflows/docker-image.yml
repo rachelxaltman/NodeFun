@@ -14,7 +14,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v4
         name: dockerize
         with:
-          image: rachelxaltman/hello-world
+          image: rachelxaltman/NodeFun
           tag: latest
           registry: docker.pkg.github.com
           username: ${{ github.actor }}
